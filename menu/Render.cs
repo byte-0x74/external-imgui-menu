@@ -51,7 +51,7 @@ public class Render
         options.Size = new Vector2D<int>(width, height);
         
         //Creates new GraphicsAPI (OpenGL 4.6) notice that OpenGL 4.6 is not supported by old hardware 
-        //You can check what opengl version is by your Graphics device from your Graphics device manufacturer documentations
+        //You can check what opengl version is supported by your Graphics device from your Graphics device manufacturer documentations
         options.API = new GraphicsAPI(ContextAPI.OpenGL, ContextProfile.Compatability, ContextFlags.Default,
             new APIVersion(4, 6));
 
