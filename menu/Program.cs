@@ -11,6 +11,7 @@ internal static class Program
     
     private static void Main()
     {
+        Render.Initialize();
         _render = new Render("Demo Window", 750, 500);
         _render.ImguiRender += RenderOnImguiRender;
         _render.RunWindow();
